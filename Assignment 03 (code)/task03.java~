@@ -1,0 +1,24 @@
+//Task 3:Write javacode of a program for finding area of a rectangle given height and width by the user.//
+
+import java.util.Scanner;
+
+public class task03 {
+    public static void main(String [] args) {
+        
+        Scanner sin = new Scanner (System.in);
+        System.out.println("Enter Height of a Rectangle:");
+        int h = sin.nextInt();
+        
+        Scanner sin = new Scanner (System.in);
+        System.out.println("Enter Width of e Rectangele:");
+        int w = sin.nextInt();
+        
+        int area = 1/2 * h * w;
+        System.out.println("Area"+area);
+            
+    }
+
+
+}
+    
+    
