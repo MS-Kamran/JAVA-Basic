@@ -1,0 +1,36 @@
+/*Task 4:Write a program which reads 5 numbers into an array, sorts/arranges the numbers from low to high and prints 
+all numbers in the array.*/
+
+//SELECTION SORTING//
+
+import java.util.Scanner;
+
+public class lab11_4 {
+  public static void main(String []args) {
+    
+    int a[]=new int[5];
+    int i,j;
+    
+    for (i=0 ; i<a.length ; i++)
+    {
+      Scanner scan = new Scanner(System.in);
+      System.out.println("Enter Values For Store in Array");
+      a[i]=scan.nextInt();
+    }
+    
+    for (i=0 ; i<a.length-1 ; i++)
+    {
+      minIndex = i;
+      for (j=i+1 ; i<a.length-1 ; i++)
+      {
+        if (a[j]<a[minIndex])
+        {
+          minIndex=j;
+        }
+      }
+      temp = i;
+      i = maxIndex;
+      maxIndex = i;
+    }
+  }
+}

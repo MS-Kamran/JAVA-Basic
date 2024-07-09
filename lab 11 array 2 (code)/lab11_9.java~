@@ -1,0 +1,20 @@
+/*Task 9:Write a java program that reads 15 numbers from the user, all the numbers within the range 0-9. Then print 
+the number of times each number has been entered by the user*/
+
+import java.util.Scanner;
+
+public class lab11_9 {
+  public static void main(String []args) {
+    
+    int a[]=new int[5];
+    
+    for (i=0 ; i<a.length ; i++)
+    {
+      Scanner scan = new Scanner(System.in);
+      System.out.println("Enter Values For Store in Array");
+      a[i]=scan.nextInt();
+      
+    }
+    System.out.println("The largest Number is: "+max);
+  }
+}
